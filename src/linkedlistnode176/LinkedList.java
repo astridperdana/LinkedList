@@ -337,11 +337,10 @@ public class LinkedList<AnyType> implements Iterable<AnyType>
    public static void main(String[] args)
    {
       LinkedList<String> list = new LinkedList <String>();
-      list.addFirst("o");
-      list.addFirst("c");
-      list.addFirst("t");
-      list.addFirst("g");
+      list.addFirst("k");
       list.addFirst("i");
+      list.addFirst("g");
+      list.addFirst("o");
       System.out.println(list);
 
 		LinkedList<String> twin = list.copy3();
@@ -367,7 +366,7 @@ public class LinkedList<AnyType> implements Iterable<AnyType>
       list.addPrev("h", "yy");
       System.out.println(list);
 
-      list.remove("p");
+      list.remove("o");
       System.out.println(list);
 	}
 }
